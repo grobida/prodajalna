@@ -173,15 +173,15 @@
 			<NazivNaslovPodjetja>
 				<VrstaPartnerja>BY</VrstaPartnerja>
 				<NazivPartnerja>
-					<NazivPartnerja1><%= customerData[0].FirstName + " " + customerData[0].LastName %></NazivPartnerja1>
-					<NazivPartnerja2><%= customerData[0].Company %></NazivPartnerja2>
+					<NazivPartnerja1><%= seznamStrank[0].FirstName + " " + seznamStrank[0].LastName %></NazivPartnerja1>
+					<NazivPartnerja2><%= seznamStrank[0].Company %></NazivPartnerja2>
 				</NazivPartnerja>
 				<Ulica>
-					<Ulica1><%= customerData[0].Address %></Ulica1>
+					<Ulica1><%= seznamStrank[0].Address %></Ulica1>
 				</Ulica>
-				<Kraj><%= customerData[0].City %></Kraj>
-				<NazivDrzave><%= customerData[0].Country %></NazivDrzave>
-				<PostnaStevilka><%= customerData[0].PostalCode %></PostnaStevilka>
+				<Kraj><%= seznamStrank[0].City %></Kraj>
+				<NazivDrzave><%= seznamStrank[0].Country %></NazivDrzave>
+				<PostnaStevilka><%= seznamStrank[0].PostalCode %></PostnaStevilka>
 				<KodaDrzave></KodaDrzave>
 			</NazivNaslovPodjetja>
 			<FinancniPodatkiPodjetja>
@@ -206,15 +206,15 @@
 			</ReferencniPodatkiPodjetja>
 			<KontaktiPodjetja>
 				<KontaktnaOseba>
-					<ImeOsebe><%= customerData[0].FirstName + " " + customerData[0].LastName + " (" + customerData[0].Email + ")" %></ImeOsebe>
+					<ImeOsebe><%= seznamStrank[0].FirstName + " " + seznamStrank[0].LastName + " (" + seznamStrank[0].Email + ")" %></ImeOsebe>
 				</KontaktnaOseba>
 				<Komunikacije>
 					<StevilkaKomunikacije></StevilkaKomunikacije>
-					<VrstaKomunikacije><%= customerData[0].Phone %></VrstaKomunikacije>
+					<VrstaKomunikacije><%= seznamStrank[0].Phone %></VrstaKomunikacije>
 				</Komunikacije>
 				<Komunikacije>
 					<StevilkaKomunikacije></StevilkaKomunikacije>
-					<VrstaKomunikacije><%= customerData[0].Fax %></VrstaKomunikacije>
+					<VrstaKomunikacije><%= seznamStrank[0].Fax %></VrstaKomunikacije>
 				</Komunikacije>
 			</KontaktiPodjetja>
 		</PodatkiPodjetja>
